@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+	#container {
+		header {
+			h1 {
+				font-size: 3em;
+			}
+			nav li {
+				display: block;
+				a {
+					font-size: .7em
+				}
+			}
+		}
+		main article {
+			aside {
+				float: none;
+			}
+			h2 {
+				display: block;
+				font-size: 2.5em;
+			}
+		}
+	}
+}
