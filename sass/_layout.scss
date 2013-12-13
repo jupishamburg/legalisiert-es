@@ -1,0 +1,85 @@
+body {
+	font-family: 'Source Sans Sans', sans-serif;
+	font-family: 14;
+	font-weight: 300;
+	background-color: #ee7202;
+	background-image: url('/images/sonne.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a {
+	color: #fff;
+
+	&:hover {
+		color: #ee7202;
+	}
+}
+hr {
+	margin-bottom: 1.5em;
+	background-image: url('/images/blatt.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: center;
+	height: 27px;
+	border: 0;
+}
+
+#faust {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	height: 34.7em;
+
+	img {
+		width: 100%;
+		max-width: 30em;
+	}
+}
+
+#container {
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	max-width: 55em;
+	color: #fff;
+	background-color: #000;
+
+	header {
+		background-color: #000;
+
+		#skew {
+			position: absolute;
+			top: -5em;
+			z-index: -1;
+			background-color: #000;
+			width: 100%;
+			height: 8em;
+			@include skew(0, 5deg);
+		}
+		h1 {
+			position: relative;
+			top: -.2em;
+			text-align: center;
+			font-size: 3.5em;
+			font-weight: 900;
+			@include rotate(-2deg);
+		}
+		nav {
+			text-align: center;
+			font-family: Arvo, sans-serif;
+			font-weight: 700;
+			font-size: 1.4em;
+
+			li {
+				display: inline-block;
+
+				a {
+					display: block;
+					text-decoration: none;
+					padding: 1em;
+				}
+			}
+		}
+	}
+}
