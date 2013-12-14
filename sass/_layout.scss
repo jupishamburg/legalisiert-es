@@ -86,6 +86,9 @@ p {
 			li {
 				display: inline-block;
 
+				&.active a {
+					color: #ee7202;
+				}
 				a {
 					display: block;
 					text-decoration: none;
