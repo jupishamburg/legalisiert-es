@@ -1,13 +1,27 @@
 @media only screen and (max-width: 600px) {
+	.only-smartphone {
+		display: block;
+	}
+
 	#container {
 		header {
 			h1 {
 				font-size: 3em;
 			}
-			nav li {
-				display: block;
-				a {
-					font-size: .7em
+			nav ul {
+				overflow: hidden;
+				max-height: 0;
+				@include transition(max-height 1s ease);
+
+				&.opened {
+					max-height: 500px;
+				}
+				li {
+					display: block;
+
+					a {
+						font-size: .7em
+					}
 				}
 			}
 		}
