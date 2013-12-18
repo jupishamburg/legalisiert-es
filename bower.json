@@ -1,0 +1,29 @@
+{
+  "name": "Legasiert es!",
+  "version": "1",
+  "homepage": "legalisiert.es",
+  "authors": [
+    "Philipp Kretzschmar <philipp.kretzschmar@gmail.com>"
+  ],
+  "description": "Eine Aktion der Jungen Piraten.",
+  "keywords": [
+    "legasiertEs",
+    "legasiert",
+    "es",
+    "drogen",
+    "legalisierung",
+    "canabis"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "~3.7.0"
+  }
+}
