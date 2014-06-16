@@ -1,5 +1,5 @@
 {
-  "name": "Legasiert es!",
+  "name": "Legalisiert es!",
   "version": "1",
   "homepage": "legalisiert.es",
   "authors": [
@@ -7,12 +7,12 @@
   ],
   "description": "Eine Aktion der Jungen Piraten.",
   "keywords": [
-    "legasiertEs",
-    "legasiert",
+    "legalisiertEs",
+    "legalisiert",
     "es",
-    "drogen",
-    "legalisierung",
-    "canabis"
+    "Drogen",
+    "Legalisierung",
+    "Cannabis"
   ],
   "license": "GPLv3",
   "private": true,
