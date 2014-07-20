@@ -2,3 +2,4 @@
 stylesheets/*.css
 bower_components/
 .idea/
+*.sw[po]
